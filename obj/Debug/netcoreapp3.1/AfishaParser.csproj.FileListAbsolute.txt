@@ -1,0 +1,17 @@
+D:\SharpProjects\AfishaParser\bin\Debug\netcoreapp3.1\AfishaParser.exe
+D:\SharpProjects\AfishaParser\bin\Debug\netcoreapp3.1\AfishaParser.deps.json
+D:\SharpProjects\AfishaParser\bin\Debug\netcoreapp3.1\AfishaParser.runtimeconfig.json
+D:\SharpProjects\AfishaParser\bin\Debug\netcoreapp3.1\AfishaParser.runtimeconfig.dev.json
+D:\SharpProjects\AfishaParser\bin\Debug\netcoreapp3.1\AfishaParser.dll
+D:\SharpProjects\AfishaParser\bin\Debug\netcoreapp3.1\AfishaParser.pdb
+D:\SharpProjects\AfishaParser\obj\Debug\netcoreapp3.1\AfishaParser.csprojAssemblyReference.cache
+D:\SharpProjects\AfishaParser\obj\Debug\netcoreapp3.1\AfishaParser.AssemblyInfoInputs.cache
+D:\SharpProjects\AfishaParser\obj\Debug\netcoreapp3.1\AfishaParser.AssemblyInfo.cs
+D:\SharpProjects\AfishaParser\obj\Debug\netcoreapp3.1\AfishaParser.dll
+D:\SharpProjects\AfishaParser\obj\Debug\netcoreapp3.1\AfishaParser.pdb
+D:\SharpProjects\AfishaParser\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+D:\SharpProjects\AfishaParser\obj\Debug\netcoreapp3.1\AfishaParser.csproj.CopyComplete
+D:\SharpProjects\AfishaParser\bin\Debug\netcoreapp3.1\Fizzler.dll
+D:\SharpProjects\AfishaParser\bin\Debug\netcoreapp3.1\Fizzler.Systems.HtmlAgilityPack.dll
+D:\SharpProjects\AfishaParser\bin\Debug\netcoreapp3.1\HtmlAgilityPack.dll
+D:\SharpProjects\AfishaParser\bin\Debug\netcoreapp3.1\System.Xml.XPath.XmlDocument.dll
