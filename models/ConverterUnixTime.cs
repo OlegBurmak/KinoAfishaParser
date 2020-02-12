@@ -11,11 +11,11 @@ namespace AfishaParser.models
         {
             if(date.GetType() == new DateTime().GetType())
             {
-                return (int)(date - UnixTime).TotalSeconds;
+                return (int)(date.Date - UnixTime).TotalSeconds;
             }
             else
             {
-                return (int)(DateTime.UtcNow - UnixTime).TotalSeconds;
+                return (int)(DateTime.UtcNow.Date - UnixTime).TotalSeconds;
             }
             
         }

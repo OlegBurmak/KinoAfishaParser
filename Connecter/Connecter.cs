@@ -55,7 +55,6 @@ namespace AfishaParser.Connecter
             }
 
             var source = WebResponseSource(request);
-
             return source;
         }
 

@@ -13,14 +13,14 @@ namespace AfishaParser.models
         public string actors;
         public string rejisser;
         public string entered_ua;
-        //public SessionItem[] sessions;
-        public int age_limit;
+        public SessionItem[] sessions;
+        public string age_limit;
 
         public string GetImage
         {
             get
             {
-                return $"https://kinoafisha.ua{url}";
+                return $"https://kinoafisha.ua{image}";
             }
         }
         public string GetUrl 

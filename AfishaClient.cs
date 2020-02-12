@@ -1,6 +1,5 @@
 using AfishaParser.Connecter;
 using AfishaParser.models;
-using AfishaParser.JsonParser;
 
 namespace AfishaParser
 {
@@ -13,13 +12,18 @@ namespace AfishaParser
 
         public string GetSource(string url, DataParam data)
         {
-            var r = Connecter.Connecter.PostSource(url, data);
-            return r;
+            var source = Connecter.Connecter.PostSource(url, data);
+            return source;
         }
 
-        public void GetJsonSource(string source)
+        public FilmObject[] GetFilms(string source)
         {
-            JsonParser.JsonParser.GetSource(source);
+            return JsonParser.JsonParser.GetFilmsSource(source);
+        }
+
+        public void SaveSourceToJson(string path, FilmObject[] filmsArray)
+        {
+            JsonParser.JsonParser.SaveToJson(path, filmsArray);
         }
     }
 }

@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using Fizzler.Systems.HtmlAgilityPack;
 using HtmlAgilityPack;
 
@@ -14,13 +15,24 @@ namespace AfishaParser.HtmlParser
 
         public static string GetText(string source)
         {
-            string result = "";
             var htmlDoc = GetHtmlDocument(source);
-            foreach(var item in htmlDoc.DocumentNode.QuerySelectorAll("a"))
+            
+            IEnumerable<HtmlNode> aSelector = htmlDoc.DocumentNode.QuerySelectorAll("a");
+            IEnumerable<HtmlNode> spanSelector = htmlDoc.DocumentNode.QuerySelectorAll("span");
+
+            string result = "";
+            foreach(var item in aSelector)
             {
                 result += $"{item.InnerText}, ";
             }
-
+            foreach(var item in spanSelector)
+            {
+                result += $"{item.InnerText}, ";
+            }
+            if(result == "" || result ==" ")
+            {
+                return source;
+            }
             return result;
         }
     }
