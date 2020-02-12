@@ -33,8 +33,6 @@ namespace AfishaParser.JsonParser
             {
                 Match match = regex.Match(parseNumber);
                 string result = match.Groups[1].ToString();
-                regex = new Regex(",");
-                result = regex.Replace(result, ".");
                 number = double.Parse(result);
             }
             catch (System.Exception)
